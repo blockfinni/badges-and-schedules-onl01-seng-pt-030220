@@ -24,3 +24,17 @@ def assign_rooms(array)
    array1
   
 end
+
+
+
+def printer(array)
+
+   batch_badge_creator(array).each { |names| puts names }
+   assign_rooms(array).each { |room| puts room }
+end
+
+
+
+
+
+
