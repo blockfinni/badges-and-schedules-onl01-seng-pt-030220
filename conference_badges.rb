@@ -9,6 +9,8 @@ def batch_badge_creator(array)
   
   nameArray = []
   
+  array.each do
   
+end
   
 end
