@@ -10,7 +10,7 @@ def batch_badge_creator(array)
   nameArray = []
   
   array.each do
-    nameArray <<  array 
+    nameArray <<   badge_maker(name)
   end
   
   return nameArray
