@@ -9,9 +9,7 @@ def batch_badge_creator(array)
   
   nameArray = []
   
-  array.each do
-    nameArray <<   badge_maker(array)
-  end
+  array.each { |name| array << badge_maker(name) }
   
   return nameArray
 end
